@@ -1,0 +1,41 @@
+[0.393s] Invoking command in '/home/haraibuki0217/ros2_ws/src/mypkg': PYTHONPATH=/home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build install --record /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
+[0.518s] running egg_info
+[0.518s] creating build/mypkg/mypkg.egg-info
+[0.526s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.526s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.526s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.526s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.527s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.527s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.544s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.544s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.544s] running build
+[0.544s] running build_py
+[0.544s] creating /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build
+[0.545s] creating /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.545s] creating /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.545s] copying mypkg/__init__.py -> /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.545s] copying mypkg/listener.py -> /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.545s] copying mypkg/talker.py -> /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.545s] running install
+[0.549s] running install_lib
+[0.558s] creating /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.558s] copying /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.558s] copying /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.558s] copying /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.558s] byte-compiling /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc
+[0.559s] byte-compiling /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/listener.py to listener.cpython-312.pyc
+[0.559s] byte-compiling /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py to talker.cpython-312.pyc
+[0.559s] running install_data
+[0.559s] creating /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.559s] creating /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.560s] creating /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.560s] copying resource/mypkg -> /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.560s] copying package.xml -> /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.560s] running install_egg_info
+[0.569s] Copying build/mypkg/mypkg.egg-info to /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info
+[0.570s] running install_scripts
+[0.638s] Installing listener script to /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.638s] Installing talker script to /home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.638s] writing list of installed files to '/home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.655s] Invoked command in '/home/haraibuki0217/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/haraibuki0217/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/build install --record /home/haraibuki0217/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
